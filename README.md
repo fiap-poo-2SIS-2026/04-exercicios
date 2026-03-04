@@ -45,9 +45,21 @@ Codifique o método construtor para inicializar todos os atributos do objeto, um
 retornar o valor do plano. 
 
 # Exercício 06
+Uma empresa está criando um jogo simples onde cada jogador possui uma pontuação (score). Em determinados momentos do jogo, a empresa ativa um **bônus global** (ex.: evento de final de semana), que aumenta os pontos ganhos por todos os jogadores.
 
+**Regras:**
+- Cada Jogador tem: **nome** e **pontuacao**.
+- Existe um **multiplicador de bônus global** compartilhado por todos os jogadores.
+- Quando um jogador ganha pontos, o valor real adicionado deve ser: **pontosGanho * multiplicadorGlobal**.
+- O bônus global pode ser alterado durante a execução do programa e deve impactar todos os jogadores.
 
-# Exercício 07
+Codifique uma classe para representar cada jogador da aplicação. Codifique os seguintes métodos:
+- Método construtor para inicializar os atributos do objeto.
+- Método para alterar o valor do multiplicador global.
+-Método para aplicar pontos no jogador obedecendo a regra descrita no slide anterior.
+
+Teste sua aplicação gerando alguns objetos e alterando o multiplicador global. Imprima os valores da pontuação de cada jogador para verificar se os métodos e os resultados estão corretos. 
+
 
 
 
